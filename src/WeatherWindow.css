@@ -1,0 +1,95 @@
+.main-weather-window {
+    width: 90%;
+    height: 92vh;
+    background-image: url('../public/images/weather-sunny-mobile-2.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 35px;
+    margin: 0 auto;
+    margin-top: 38px;
+    overflow: hidden;
+}
+
+.weather-window {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.weather-window-content {
+    margin: 0 20px;
+    padding-top: 6px;
+}
+
+.general-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.localization-info {
+    display: flex;
+    align-items: center;
+}
+
+.lines {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-right: 4px;
+}
+
+.lines .linebreak {
+    margin: 2px;
+    background-color: #fff;
+}
+
+.lines .linebreak:first-child {
+    width: 40px;
+}
+
+span {
+    display: inline-block;
+    font-size: 26px;
+    color: #fff;
+    margin: 0 3px;
+}
+
+span+p {
+    display: inline;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.main-temperature {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 80px;
+    color: #fff;
+}
+
+.main-temperature p {
+    margin: -10px 0;
+}
+
+.main-temperature img {
+    margin-top: -10px;
+    width: 30px;
+    height: 42px;
+}
+
+.main-temperature .humidity-level {
+    font-weight: 600;
+    text-shadow: #000 2px 2px 2px;
+    font-size: 16px;
+    flex-basis: 100%;
+    margin-top: -36px;
+    text-align: right;
+}
